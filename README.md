@@ -19,7 +19,25 @@ A modern, web-based medical image viewer and annotation tool built with React, T
 - 💾 Persistent settings and preferences
 - ⚡ Fast and efficient image rendering with KonvaJS
 
+## Live Demo
+
+You can access the live demo of MedAnnot at the following link:
+
+[Live Demo - MedAnnot](https://deeps-03.github.io/MedAnnot/)
+
 ## Implementation Details
+
+## Tech Stack
+
+The following technologies were used to build this application:
+
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Zustand**: A small, fast state management solution for React.
+- **KonvaJS**: A canvas library for drawing 2D shapes, images, and text.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Vite**: A build tool that provides a faster and leaner development experience for modern web projects.
+- **Docker**: For containerized deployment.
 
 ### Architecture
 
