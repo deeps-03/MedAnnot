@@ -83,15 +83,13 @@ The application follows a modular architecture with clear separation of concerns
    ```bash
    docker-compose build
    ```
-
-2.**Start the container**:
-  ```bash
-  docker-compose up -d
-  ```
-
+2. **Start the container**:
+    ```bash
+   docker-compose up -d
+   ```
 3. Access the application at `http://localhost:1235`
 
-4. Stop the container:
+4. **Stop the container**:
    ```bash
    docker-compose down
    ```
@@ -99,7 +97,7 @@ The application follows a modular architecture with clear separation of concerns
 
 Link: https://hub.docker.com/repository/docker/deepaksuresh03/medannot/general
    
-### Production Build
+## Production Build
 
 ```bash
 npm run build
