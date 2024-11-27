@@ -63,7 +63,7 @@ The application follows a modular architecture with clear separation of concerns
 - Node.js 18+ and npm
 - Docker and Docker Compose (for containerized deployment)
 
-### Development Setup
+## Development Setup
 
 1. Install dependencies:
    ```bash
@@ -77,25 +77,28 @@ The application follows a modular architecture with clear separation of concerns
 
    The application will be available at `http://localhost:1235`
 
-### Docker Deployment
+## Docker Deployment
 
-1. Build and run with Docker Compose:
+1. **Build the image**:
    ```bash
-   # Build the image
    docker-compose build
-
-   # Start the container
-   docker-compose up -d
-
-   # View logs
-   docker-compose logs -f
-
-   # Stop the container
-   docker-compose down
    ```
 
-2. Access the application at `http://localhost:1235`
+2.**Start the container**:
+  ```bash
+  docker-compose up -d
+  ```
 
+3. Access the application at `http://localhost:1235`
+
+4. Stop the container:
+   ```bash
+   docker-compose down
+   ```
+## Docker Hub Link
+
+Link: https://hub.docker.com/repository/docker/deepaksuresh03/medannot/general
+   
 ### Production Build
 
 ```bash
