@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  medannot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1235:80"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:80"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+    environment:
+      - NODE_ENV=production
