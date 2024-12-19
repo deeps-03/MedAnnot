@@ -1,4 +1,4 @@
-# MedAnnot - Medical Image Viewer and Annotation Tool
+# MedAnnot - Medical Image Viewer and Annotation Tool (Under Development)
 
 A modern, web-based medical image viewer and annotation tool built with React, TypeScript, and modern web technologies. This application provides a robust platform for viewing and annotating medical images with an intuitive user interface.
 
